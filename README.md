@@ -32,7 +32,7 @@ no_seat | 无座
 
 
 # 使用
-'''
+```
 	train = Train()
 
 	#查询列车
@@ -43,4 +43,4 @@ no_seat | 无座
 	# tems = train.channel(res[0])
 	# print(tems
 
-'''
+```
