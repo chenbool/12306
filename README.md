@@ -29,3 +29,18 @@ hard_sleep | 硬卧
 business_sleep | 高级软卧
 hard_seat | 硬座
 no_seat | 无座
+
+
+# 使用
+'''
+	train = Train()
+
+	#查询列车
+	res = train.run('2018-03-30 北京 上海')
+	print(res)
+
+	# 查询 途径站点
+	# tems = train.channel(res[0])
+	# print(tems
+
+'''
