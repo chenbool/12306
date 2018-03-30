@@ -2,12 +2,11 @@
 1230查询，采集
 
 列车
-
-    https://kyfw.12306.cn/otn/leftTicket/queryO?leftTicketDTO.train_date=2018-03-20&leftTicketDTO.from_station=BJP&leftTicketDTO.to_station=SHH&purpose_codes=ADULT
+[列车](https://kyfw.12306.cn/otn/leftTicket/queryO?leftTicketDTO.train_date=2018-03-20&leftTicketDTO.from_station=BJP&leftTicketDTO.to_station=SHH&purpose_codes=ADULT)
 
 查询 途径站
-
-    https://kyfw.12306.cn/otn/czxx/queryByTrainNo?train_no=240000G1010D&from_station_telecode=VNP&to_station_telecode=AOH&depart_date=2018-03-30
+[查询](https://kyfw.12306.cn/otn/czxx/queryByTrainNo?train_no=240000G1010D&from_station_telecode=VNP&to_station_telecode=AOH&depart_date=2018-03-30)
+    
 
 # 参数说明
 
@@ -33,14 +32,14 @@ no_seat | 无座
 
 # 使用
 ```
-	train = Train()
+train = Train()
 
-	#查询列车
-	res = train.run('2018-03-30 北京 上海')
-	print(res)
+#查询列车
+res = train.run('2018-03-30 北京 上海')
+print(res)
 
-	# 查询 途径站点
-	# tems = train.channel(res[0])
-	# print(tems
+# 查询 途径站点
+# tems = train.channel(res[0])
+# print(tems
 
 ```
