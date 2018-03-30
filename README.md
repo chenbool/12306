@@ -9,6 +9,8 @@ https://kyfw.12306.cn/otn/czxx/queryByTrainNo?train_no=240000G1010D&from_station
 
 # 参数说明
 
+名称 | 描述
+---|---
 train_no | 车次
 train_sn | 查询 途径站 使用此编号
 from_station | 出发站
