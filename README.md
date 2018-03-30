@@ -2,10 +2,12 @@
 1230查询，采集
 
 列车
-https://kyfw.12306.cn/otn/leftTicket/queryO?leftTicketDTO.train_date=2018-03-20&leftTicketDTO.from_station=BJP&leftTicketDTO.to_station=SHH&purpose_codes=ADULT
+
+    https://kyfw.12306.cn/otn/leftTicket/queryO?leftTicketDTO.train_date=2018-03-20&leftTicketDTO.from_station=BJP&leftTicketDTO.to_station=SHH&purpose_codes=ADULT
 
 查询 途径站
-https://kyfw.12306.cn/otn/czxx/queryByTrainNo?train_no=240000G1010D&from_station_telecode=VNP&to_station_telecode=AOH&depart_date=2018-03-30
+
+    https://kyfw.12306.cn/otn/czxx/queryByTrainNo?train_no=240000G1010D&from_station_telecode=VNP&to_station_telecode=AOH&depart_date=2018-03-30
 
 # 参数说明
 
