@@ -1,4 +1,4 @@
-# 12306
+# 12306接口
 1230查询，采集
 
 列车
@@ -39,7 +39,7 @@ res = train.run('2018-03-30 北京 上海')
 print(res)
 
 # 查询 途径站点
-# tems = train.channel(res[0])
-# print(tems
+tems = train.channel(res[0])
+print(tems
 
 ```
