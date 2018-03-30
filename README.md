@@ -1,4 +1,4 @@
-# 12306接口
+## 12306接口
 1230查询，采集
 
 列车
@@ -8,7 +8,7 @@
 [查询](https://kyfw.12306.cn/otn/czxx/queryByTrainNo?train_no=240000G1010D&from_station_telecode=VNP&to_station_telecode=AOH&depart_date=2018-03-30)
     
 
-# 参数说明
+## 参数说明
 
 名称 | 描述
 ---|---
@@ -30,7 +30,7 @@ hard_seat | 硬座
 no_seat | 无座
 
 
-# 使用
+## 使用
 ```
 train = Train()
 
