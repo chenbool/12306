@@ -185,7 +185,7 @@ def main():
 
 	# 查询 途径站点
 	# tems = train.channel(res[0])
-	# print(tems
+	# print(tems)
 
 if __name__ == "__main__":  
 	main()
