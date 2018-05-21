@@ -40,6 +40,6 @@ print(res)
 
 # 查询 途径站点
 tems = train.channel(res[0])
-print(tems
+print(tems)
 
 ```
